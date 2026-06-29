@@ -225,12 +225,16 @@ def addAllTSVToSQL(TSVDir):
                     else: # the rest of the lines are records
                         record = {key : value for key, value in zip(column_names, line)}
                         record.update({common.COLUMN_NAME_DATE_MODIFIED:common.TODAYS_DATE})
-                        if not check_record_exists(c, {common.COLUMN_NAME_ENGLISH:record[common.COLUMN_NAME_ENGLISH],
-                                                        common.COLUMN_NAME_CATEGORY:record[common.COLUMN_NAME_CATEGORY],
-                                                        common.COLUMN_NAME_SUB_CATEGORY:record[common.COLUMN_NAME_SUB_CATEGORY],
-                                                        common.COLUMN_NAME_SOURCE:record[common.COLUMN_NAME_SOURCE]}):
-                            added_records += 1
-                            insert_record(c, record)
+                        try:
+                            if not check_record_exists(c, {common.COLUMN_NAME_ENGLISH:record[common.COLUMN_NAME_ENGLISH],
+                                                            common.COLUMN_NAME_CATEGORY:record[common.COLUMN_NAME_CATEGORY],
+                                                            common.COLUMN_NAME_SUB_CATEGORY:record[common.COLUMN_NAME_SUB_CATEGORY],
+                                                            common.COLUMN_NAME_SOURCE:record[common.COLUMN_NAME_SOURCE]}):
+                                added_records += 1
+                                insert_record(c, record)
+                        except:
+                            print(f"errors at {added_records}")
+                            break
             print("Added", added_records, "records from file: " + file)
 
     conn.commit()

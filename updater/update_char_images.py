@@ -8,10 +8,10 @@ import zipfile
 from common_func import LANG
 import update_hash
 
-font_size_lang = {'ja':12, 'ru':12, 'zh':12} # max 12
-canvas_size_lang = {'ja':(12,12), 'ru':(12,12), 'zh':(12,12)} # canvas size in order of width, height.
-text_pad_lang = {'ja':(0,0), 'ru':(0,-1), 'zh':(0,0)} # pixels to shift the text, in order of left padding and top padding
-bg_text_pad_lang = {'ja':(1,1), 'ru':(1,1), 'zh':(1,1)} # pixels to shift the 'shadow text', in order of left padding and top padding
+font_size_lang = {'ja':12, 'ru':12, 'zh':12, 'zh_tw':12} # max 12
+canvas_size_lang = {'ja':(12,12), 'ru':(12,12), 'zh':(12,12), 'zh_tw':(12,12)} # canvas size in order of width, height.
+text_pad_lang = {'ja':(0,0), 'ru':(0,-1), 'zh':(0,0), 'zh_tw':(0,0)} # pixels to shift the text, in order of left padding and top padding
+bg_text_pad_lang = {'ja':(1,1), 'ru':(1,1), 'zh':(1,1), 'zh_tw':(1,1)} # pixels to shift the 'shadow text', in order of left padding and top padding
 # add more languages as needed
 
 # some values below will change on execution
@@ -75,6 +75,8 @@ def setGoodParam(char, lang): # setting width for a specific character. add more
 
 def setGoodCharWidth(char, lang): # setting width for a specific character. add more languages as needed
     if lang == 'zh-CN':
+        return setZhFontSize(char)
+    elif lang == 'zh-TW':
         return setZhFontSize(char)
     else:
         return CANV_WIDTH

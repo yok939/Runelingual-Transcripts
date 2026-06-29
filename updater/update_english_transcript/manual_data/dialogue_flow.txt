@@ -1,3 +1,3 @@
 english	category	sub_category	source
 Click here to continue	dialogue	manual	
-Please wait...	dialogue	manual	
+Please wait...	dialogue	manual
