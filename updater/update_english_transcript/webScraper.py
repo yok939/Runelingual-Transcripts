@@ -2,6 +2,9 @@
 # returns the data in a dictionary
 # npc_dialogue includes dialogue, every option in option dialogue as different entry, and overhead
 
+# (2026/06/29) Note by yok939 
+# line 351,  has been temporarily added "try-except" statement to fix the chisel function
+
 import common
 import requests
 from bs4 import BeautifulSoup
@@ -345,7 +348,11 @@ def scrape_chisel(url, examine_url):
                 option_worn = [i[1] for i in option_worn_dict.items()
                                if isinstance(i[1], str) and has_alphabet(i[1]) and len(i[1].split(" ")) < 10 and not i[1].endswith('.')
                                and i[0] != "1733" and i[0] != "1784" and i[0] != "602"]
-                options.extend(option_worn)
+                #Temporary fix
+                try:
+                    options.extend(option_worn)
+                except:
+                    continue
 
             # get options on ground
             item_option_on_ground = entity.get("actWorld")
@@ -412,16 +419,20 @@ def scrape_chisel(url, examine_url):
                             common.COLUMN_NAME_WIKI_URL: link}
             data_option.append(option_record)
         
-        for option_ground in item_option_on_ground:
-            if option_ground in [None, 'null', 'Null', '']:
-                continue
-            option_record = {common.COLUMN_NAME_ENGLISH: option_ground,
-                            common.COLUMN_NAME_CATEGORY: common.ITEM_GROUND_OPTION_VAR_NAME,
-                            common.COLUMN_NAME_SUB_CATEGORY: sub_category,
-                            common.COLUMN_NAME_SOURCE: name,
-                            common.COLUMN_NAME_DATE_MODIFIED: common.TODAYS_DATE,
-                            common.COLUMN_NAME_WIKI_URL: link}
-            data_option.append(option_record)
+        #Temporary fix
+        try:
+            for option_ground in item_option_on_ground:
+                if option_ground in [None, 'null', 'Null', '']:
+                    continue
+                option_record = {common.COLUMN_NAME_ENGLISH: option_ground,
+                                common.COLUMN_NAME_CATEGORY: common.ITEM_GROUND_OPTION_VAR_NAME,
+                                common.COLUMN_NAME_SUB_CATEGORY: sub_category,
+                                common.COLUMN_NAME_SOURCE: name,
+                                common.COLUMN_NAME_DATE_MODIFIED: common.TODAYS_DATE,
+                                common.COLUMN_NAME_WIKI_URL: link}
+                data_option.append(option_record)
+        except:
+            continue
 
     return data_name, data_examine, data_option
 
