@@ -1,0 +1,335 @@
+english	translation	category	sub_category	source
+Examine	查看	actions	item	
+Take	拿取	actions	item	
+Light	點燃	actions	item	
+(Members)	(會員)	actions	item	
+Walk here	走到此處	actions	manual	
+Cancel	取消	actions	manual	
+Hide	隱藏	actions	menu	prayerTab
+Activate	開啟	actions	menu	prayerTab
+Unhide	顯示	actions	menu	prayerTab
+Deactivate	關閉	actions	menu	prayerTab
+Animation	動畫	actions	menu	spellBookTab
+Hide	隱藏	actions	menu	spellBookTab
+Cast	施法	actions	menu	spellBookTab
+Unhide	顯示	actions	menu	spellBookTab
+View	展開	actions	menu	spellBookTab
+Warnings	緊告	actions	menu	spellBookTab
+Configure	設定	actions	menu	spellBookTab
+Grand Exchange		actions	menu	spellBookTab
+Seers'		actions	menu	spellBookTab
+Group: Previous		actions	menu	spellBookTab
+Group: Choose		actions	menu	spellBookTab
+Outside		actions	menu	spellBookTab
+Yanille		actions	menu	spellBookTab
+Enable warning		actions	menu	spellBookTab
+Disable warning		actions	menu	spellBookTab
+Turael		actions	menu	spellBookTab
+Target		actions	menu	spellBookTab
+Setup		actions	menu	spellBookTab
+Arceuus		actions	menu	spellBookTab
+Ancient		actions	menu	spellBookTab
+Standard		actions	menu	spellBookTab
+Reanimate		actions	menu	spellBookTab
+Resurrect		actions	menu	spellBookTab
+Accurate		actions	menu	combatOptionsTab
+Aggressive		actions	menu	combatOptionsTab
+Defensive		actions	menu	combatOptionsTab
+Controlled		actions	menu	combatOptionsTab
+Chop		actions	menu	combatOptionsTab
+Slash		actions	menu	combatOptionsTab
+Stab		actions	menu	combatOptionsTab
+Block		actions	menu	combatOptionsTab
+Pound		actions	menu	combatOptionsTab
+Pummel		actions	menu	combatOptionsTab
+Spike		actions	menu	combatOptionsTab
+Impale		actions	menu	combatOptionsTab
+Smash		actions	menu	combatOptionsTab
+Lunge		actions	menu	combatOptionsTab
+Swipe		actions	menu	combatOptionsTab
+Hack		actions	menu	combatOptionsTab
+Reap		actions	menu	combatOptionsTab
+Rapid		actions	menu	combatOptionsTab
+Longrange		actions	menu	combatOptionsTab
+Flick		actions	menu	combatOptionsTab
+Lash		actions	menu	combatOptionsTab
+Deflect		actions	menu	combatOptionsTab
+Fend		actions	menu	combatOptionsTab
+Bash		actions	menu	combatOptionsTab
+Blaze		actions	menu	combatOptionsTab
+Scorch		actions	menu	combatOptionsTab
+Flare		actions	menu	combatOptionsTab
+Punch		actions	menu	combatOptionsTab
+Kick		actions	menu	combatOptionsTab
+Adjust Music Volume		actions	menu	settingsTab
+Adjust Area Sound Volume		actions	menu	settingsTab
+Adjust Sound Effect Volume		actions	menu	settingsTab
+Toggle unlock message		actions	menu	settingsTab
+Play		actions	menu	
+Open Activity Adviser		actions	menu	
+<colNum0>Set chat mode:</col> Group (/@g)		actions	menu	
+<colNum0>Set chat mode:</col> Guest Clan (/@gc)		actions	menu	
+<colNum0>Set chat mode:</col> Clan (/@c)		actions	menu	
+<colNum0>Set chat mode:</col> Channel (/@f)		actions	menu	
+<colNum0>Set chat mode:</col> Public (/@p)		actions	menu	
+Clear history		actions	menu	
+Switch tab		actions	menu	
+Configure filter		actions	menu	
+<colNum0>Game:</col> Clear history		actions	menu	
+<colNum0>Game:</col> Filter		actions	menu	
+Setup your autochat		actions	menu	
+Filter public chat		actions	menu	
+<colNum0>Public:</col> Clear history		actions	menu	
+<colNum0>Public:</col> Hide		actions	menu	
+<colNum0>Public:</col> Show none		actions	menu	
+<colNum0>Public:</col> Show friends		actions	menu	
+<colNum0>Public:</col> Show standard		actions	menu	
+<colNum0>Public:</col> Show autochat		actions	menu	
+<colNum0>Private:</col> Clear history		actions	menu	
+<colNum0>Private:</col> Show none		actions	menu	
+<colNum0>Private:</col> Show friends		actions	menu	
+<colNum0>Private:</col> Show all		actions	menu	
+<colNum0>Channel:</col> Clear history		actions	menu	
+<colNum0>Channel:</col> Show none		actions	menu	
+<colNum0>Channel:</col> Show friends		actions	menu	
+<colNum0>Channel:</col> Show all		actions	menu	
+<colNum0>Clan:</col> Clear history		actions	menu	
+<colNum0>Clan:</col> Show none		actions	menu	
+<colNum0>Clan:</col> Show friends		actions	menu	
+<colNum0>Clan:</col> Show all		actions	menu	
+<colNum0>Group:</col> Clear history		actions	menu	
+<colNum0>Group:</col> Show none		actions	menu	
+<colNum0>Group:</col> Show friends		actions	menu	
+<colNum0>Group:</col> Show all		actions	menu	
+<colNum0>Trade:</col> Clear history		actions	menu	
+<colNum0>Trade:</col> Show none		actions	menu	
+<colNum0>Trade:</col> Show friends		actions	menu	
+<colNum0>Trade:</col> Show all		actions	menu	
+Report game bug		actions	menu	
+Report abuse		actions	menu	
+Combat Options		actions	menu	
+Skills		actions	menu	
+Achievement Diaries		actions	menu	
+Inventory		actions	menu	
+Worn Equipment		actions	menu	
+Enable prayer reordering		actions	menu	
+Disable prayer filtering		actions	menu	
+Prayer		actions	menu	
+Enable spell reordering		actions	menu	
+Disable spell filtering		actions	menu	
+Magic		actions	menu	
+Friends List		actions	menu	
+Account Management		actions	menu	
+Ironman Group		actions	menu	
+Settings		actions	menu	
+Emotes		actions	menu	
+Music Player		actions	menu	
+Logout		actions	menu	
+Look West		actions	menu	
+Look South		actions	menu	
+Look East		actions	menu	
+Look North		actions	menu	
+Setup		actions	menu	
+Hide		actions	menu	
+Show		actions	menu	
+Activate		actions	menu	
+Toggle Run		actions	menu	
+Use		actions	menu	
+Bond Pouch		actions	menu	
+Open Store		actions	menu	
+Clear		actions	menu	
+Import		actions	menu	
+Export		actions	menu	
+Fullscreen <colNum0>World Map</col>		actions	menu	
+Floating <colNum0>World Map</col>		actions	menu	
+DPS		actions	menu	
+Search		actions	menu	
+Lookup		actions	menu	
+Auto retaliate		actions	menu	combatOptionsTab
+Use <colNum0>Special Attack</col>		actions	menu	combatOptionsTab
+Choose spell		actions	menu	combatOptionsTab
+Focus		actions	menu	combatOptionsTab
+Wiki		actions	menu	
+Add to canvas		actions	menu	
+View <colNum0>Attack</col> guide		actions	menu	skillsTab
+View <colNum0>Hitpoints</col> guide		actions	menu	skillsTab
+View <colNum0>Mining</col> guide		actions	menu	skillsTab
+View <colNum0>Strength</col> guide		actions	menu	skillsTab
+View <colNum0>Agility</col> guide		actions	menu	skillsTab
+View <colNum0>Smithing</col> guide		actions	menu	skillsTab
+View <colNum0>Defence</col> guide		actions	menu	skillsTab
+View <colNum0>Herblore</col> guide		actions	menu	skillsTab
+View <colNum0>Fishing</col> guide		actions	menu	skillsTab
+View <colNum0>Ranged</col> guide		actions	menu	skillsTab
+View <colNum0>Thieving</col> guide		actions	menu	skillsTab
+View <colNum0>Cooking</col> guide		actions	menu	skillsTab
+View <colNum0>Prayer</col> guide		actions	menu	skillsTab
+View <colNum0>Crafting</col> guide		actions	menu	skillsTab
+View <colNum0>Firemaking</col> guide		actions	menu	skillsTab
+View <colNum0>Magic</col> guide		actions	menu	skillsTab
+View <colNum0>Fletching</col> guide		actions	menu	skillsTab
+View <colNum0>Woodcutting</col> guide		actions	menu	skillsTab
+View <colNum0>Runecraft</col> guide		actions	menu	skillsTab
+View <colNum0>Slayer</col> guide		actions	menu	skillsTab
+View <colNum0>Farming</col> guide		actions	menu	skillsTab
+View <colNum0>Construction</col> guide		actions	menu	skillsTab
+View <colNum0>Hunter</col> guide		actions	menu	skillsTab
+Character Summary		actions	menu	characterSummaryTab
+Achievement Diaries		actions	menu	characterSummaryTab
+Quest List		actions	menu	characterSummaryTab
+Character Summary		actions	menu	achievementDiaryTab
+Achievement Diaries		actions	menu	achievementDiaryTab
+Quest List		actions	menu	achievementDiaryTab
+Character Summary		actions	menu	questListTab
+Achievement Diaries		actions	menu	questListTab
+Quest List		actions	menu	questListTab
+Character Summary		actions	menu	
+Quest List		actions	menu	
+Rewards		actions	menu	characterSummaryTab
+Tasks		actions	menu	characterSummaryTab
+Bosses		actions	menu	characterSummaryTab
+Overview		actions	menu	characterSummaryTab
+Collection Log		actions	menu	characterSummaryTab
+Collection Overview		actions	menu	characterSummaryTab
+Reveal		actions	menu	characterSummaryTab
+Hide		actions	menu	characterSummaryTab
+Open		actions	menu	questListTab
+Close		actions	menu	questListTab
+Start Quest Helper		actions	menu	questListTab
+Open wiki quick guide:		actions	menu	questListTab
+Open wiki guide:		actions	menu	questListTab
+Show on map:		actions	menu	questListTab
+Read journal:		actions	menu	questListTab
+Start Helper		actions	menu	achievementDiaryTab
+Wiki <colNum0>Ardougne Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Ardougne Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Desert Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Desert Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Falador Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Falador Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Fremennik Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Fremennik Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Kandarin Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Kandarin Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Karamja Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Karamja Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Kourend & Kebos Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Kourend & Kebos Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Lumbridge & Draynor Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Lumbridge & Draynor Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Morytania Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Morytania Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Varrock Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Varrock Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Western Provinces Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Western Provinces Journal</col>		actions	menu	achievementDiaryTab
+Wiki <colNum0>Wilderness Journal</col>		actions	menu	achievementDiaryTab
+Open <colNum0>Wilderness Journal</col>		actions	menu	achievementDiaryTab
+View equipment stats		actions	menu	wornEquipmentTab
+View guide prices		actions	menu	wornEquipmentTab
+View items kept on death		actions	menu	wornEquipmentTab
+Call follower		actions	menu	wornEquipmentTab
+Disable prayer reordering		actions	menu	
+Enable prayer filtering		actions	menu	
+Disable spell reordering		actions	menu	
+Enable spell filtering		actions	menu	
+Show notifications		actions	menu	
+Add Note		actions	menu	
+Hide notifications		actions	menu	
+Delete		actions	menu	friendsTab
+Message		actions	menu	friendsTab
+View Ignore List		actions	menu	friendsTab
+Add Friend		actions	menu	friendsTab
+Delete Friend		actions	menu	friendsTab
+Hop-to		actions	menu	friendsTab
+View Friends List		actions	menu	ignoreTab
+Delete		actions	menu	ignoreTab
+Add Name		actions	menu	ignoreTab
+Delete Name		actions	menu	ignoreTab
+Account		actions	menu	accountManagementTab
+Community		actions	menu	accountManagementTab
+Useful Links		actions	menu	accountManagementTab
+Open Store		actions	menu	accountManagementTab
+Bond Pouch		actions	menu	accountManagementTab
+View Inbox		actions	menu	accountManagementTab
+Name Changer		actions	menu	accountManagementTab
+View History		actions	menu	accountManagementTab
+View Newspost		actions	menu	accountManagementTab
+View Archive		actions	menu	accountManagementTab
+Open		actions	menu	accountManagementTab
+Settings		actions	menu	groupTab
+Refresh		actions	menu	groupTab
+Join		actions	menu	groupTab
+Setup		actions	menu	groupTab
+Find		actions	menu	groupTab
+Open		actions	menu	groupTab
+Add friend		actions	menu	groupTab
+Add ignore		actions	menu	groupTab
+Teleport		actions	menu	groupTab
+Select		actions	menu	groupTab
+Join <colNum0><!ANY_TRANSLATED0></col> channel		actions	menu	groupTab
+Leave <colNum0><!ANY_TRANSLATED0></col> channel		actions	menu	groupTab
+Teleport to <colNum0><!ANY_TRANSLATED0></col>		actions	menu	groupTab
+Add friend <!PLAYER_NAME0>		actions	menu	groupTab
+Add ignore <!PLAYER_NAME0>		actions	menu	groupTab
+Remove friend <!PLAYER_NAME0>		actions	menu	groupTab
+Remove ignore <!PLAYER_NAME0>		actions	menu	groupTab
+View Channel		actions	menu	groupTab
+Toggle skull prevention		actions	menu	settingsTab
+Toggle Accept Aid		actions	menu	settingsTab
+Toggle Run		actions	menu	settingsTab
+View House Options		actions	menu	settingsTab
+Open Bond Pouch		actions	menu	settingsTab
+All Settings		actions	menu	settingsTab
+Controls		actions	menu	settingsTab
+Display		actions	menu	settingsTab
+Audio		actions	menu	settingsTab
+Unmute		actions	menu	settingsTab
+Adjust Brightness		actions	menu	settingsTab
+Restore Default Zoom		actions	menu	settingsTab
+Disable		actions	menu	settingsTab
+Select		actions	menu	settingsTab
+Perform		actions	menu	emotesTab
+Perform <colNum0>Relic unlock</col>		actions	menu	emotesTab
+Loop		actions	menu	emotesTab
+Area		actions	menu	musicTab
+Manual		actions	menu	musicTab
+Random		actions	menu	musicTab
+Unlock hint		actions	menu	musicTab
+Play		actions	menu	musicTab
+Toggle		actions	menu	musicTab
+Open		actions	menu	musicTab
+Thumbs Up		actions	menu	logoutTab
+Thumbs Down		actions	menu	logoutTab
+World Switcher		actions	menu	logoutTab
+Logout		actions	menu	logoutTab
+Favourite		actions	menu	worldSwitcherTab
+Switch		actions	menu	worldSwitcherTab
+Logout		actions	menu	worldSwitcherTab
+Clear		actions	menu	worldSwitcherTab
+Close		actions	menu	worldSwitcherTab
+Configure		actions	menu	worldSwitcherTab
+Grouping		actions	menu	groupTab
+Ironman Group		actions	menu	groupTab
+Chat-channel		actions	menu	groupTab
+Your Clan		actions	menu	groupTab
+View another clan		actions	menu	groupTab
+Message		actions	menu	groupTab
+Remove friend		actions	menu	groupTab
+Switch world		actions	menu	groupTab
+View Poll		actions	menu	accountManagementTab
+Viewer		actions	menu	
+On		actions	menu	
+Off		actions	menu	
+Expel Guests		actions	menu	
+Call Servant		actions	menu	
+Leave House		actions	menu	
+Open subsection		actions	menu	
+Move		actions	menu	
+Learn More		actions	menu	
+Examine		actions	npc	
+Follow		actions	player	
+Trade with		actions	player	
+Lookup		actions	player	
+Equipment		actions	player	
+Report		actions	player	

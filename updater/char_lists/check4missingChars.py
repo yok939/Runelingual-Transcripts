@@ -60,7 +60,7 @@ def main():
 
     # choose language
     print("enter a number;")
-    LANG = ["ja"]
+    LANG = ["ja", "zh_tw"]
     for i, lang in enumerate(LANG):
         print(f"{i} for {lang}")
     language_num = int(input("for the language you wish to check if all character are present in the reference file (all_char_??.txt): "))
@@ -77,9 +77,16 @@ def main():
     accepted_characters = set("ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ０１２３４５６７８９！？、。\！”＃＄％＆＇（）＊＋，－．／：；＜＝＞？＠［＼］＾＿｀｛｜｝　")
     missing_chars = missing_chars - accepted_characters
     if missing_chars:
+        _temp = 0
         print("Characters not found in the reference file:")
         for char in missing_chars:
-            print(char)
+            print(char, end='')
+            _temp += 1
+            if _temp % 15 == 0:
+                print('\n', end='')
+            else:
+                if _temp == len(missing_chars):
+                    print('\n', end='')
     else:
         print("All characters are present in the reference file.")
 

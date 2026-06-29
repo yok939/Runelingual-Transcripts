@@ -1,0 +1,8 @@
+english	translation	category	sub_category	source
+Examine		inventoryActions	item	
+Remove		inventoryActions	item	
+Add		inventoryActions	item	
+Add-5		inventoryActions	item	
+Add-10		inventoryActions	item	
+Add-All		inventoryActions	item	
+Add-X		inventoryActions	item	
